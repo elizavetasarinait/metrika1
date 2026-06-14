@@ -1,0 +1,341 @@
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  background: #f5f5f5;
+  letter-spacing: -3%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background: #ffffff;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+
+.interior {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 30px;
+    height: 500px;
+    width: 1150px;
+    background-image: url('../resources/armchair.jpg'); 
+}
+
+.image-text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+p.description {
+    margin-top: 30px;
+    width: 1048px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    text-align: left;
+}
+
+.view-service {
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: block;
+    color: #ffffff;
+    width: 255px;
+    height: 67px;
+    cursor: pointer;
+    background-color: #AD1818;
+    text-decoration: none;
+    cursor: pointer;
+
+    text-align: center;
+    line-height: 67px;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.item {
+    width: 1150px;
+}
+
+.item__image {
+    display: block;
+    width: 100%;
+    line-height: 450px;
+    margin-bottom: 15px;
+}
+
+.item__title {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: left;
+}
+
+.item__detailed {
+    margin-bottom: 90px;
+    display: block;
+    font-family: "Manrope", sans-serif;
+    border: none;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #AD1818;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.items {
+    box-sizing: border-box;
+    width: 100%;
+    height: 153px;
+    display: block;
+    padding: 56px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    color: #AD1818;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.items:hover {
+    background-color: #AD1818;
+    color: #ffffff;
+}
+
+.container-services {
+    margin: 0 auto;
+    width: 1400px;
+    background-color: #121212;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 151px;
+    padding-bottom: 93px;
+}
+
+h2.services {
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.item-service__image {
+    display: block;
+    width: 100%;
+    line-height: 270px;
+    margin-bottom: 15px;
+}
+
+.item-service__title {
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.item-service:nth-last-child(1) {
+    margin-bottom: 25px;
+}
+
+.nav-section {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.nav-container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 32.82px;
+    padding-left: 124.65px;
+    padding-right: 124px;
+    width: 1400px;
+}
+
+.logo-link {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    display: inline-block;
+    width: 126.89px;
+    height: 21.42px;
+
+}
+
+.nav {
+    float: right;
+}
+
+.nav__link {
+    margin-left: 60px;
+    line-height: 25px;
+    color: #121212;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav__link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.section-image {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.container-image {
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background-image: url('/resources/project_five.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 0;
+}
+
+.section-image__text {
+    position: absolute;
+    left: 127px;
+    bottom: 61px;
+    max-width: 443px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.container-contacts {
+    margin: 0 auto;
+    padding-top: 186px;
+    width: 1400px;
+    background: #ffffff;
+    padding-left: 124px;
+    padding-bottom: 150px;
+}
+
+.contacts {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #121212;
+}
+
+.contacts:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 4px;
+    width: 13px;
+    height: 22px;
+    background-image: url('/resources/phone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.contacts__number {
+    margin-top: 32px;
+    margin-left: 1px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contacts__mail {
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-decoration: none;
+    color: #121212;
+    text-underline-offset: 10px;
+    opacity: 0.5;
+}
+
+.container-futor {
+    margin: auto;
+    width: 1400px;
+    background: #121212;
+}
+
+.futor {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 87px;
+    text-align: center;
+}
+
+.futor__link {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.futor__link:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    color: rgba(255, 255, 255, 1);
+}
+
+.futor__name {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 27px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    opacity: 0.5;
+}
+
+
