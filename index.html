@@ -2,8 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Метрика</title>
-
+    <link rel="icon" href="resources/favicon.png" type="image/png">
     <link rel="stylesheet" href="styles/reset.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,51 +29,75 @@
           </div>
     </div>
 
+    <main>
     <div class="container">
-
-        <h1 style="width: 956px;">Современные и стильные интерьеры для комфортной жизни</h1>
-
+        <h1>Современные и стильные интерьеры для комфортной жизни</h1>
         <div class="interior">
             <p class="image-text">
                 Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов
             </p>
         </div>
-        <h2 id="about-us" style="margin-top: 150px;">О НАС</h2>
+        <h2 id="about-us">О НАС</h2>
         <p class="description">
          Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
         </p>
+        
 
         <a href="" class="view-service">Посмотреть услуги</a>
 
         <h2 id="projects">ПРОЕКТЫ</h2>
         <div class="items-list">
         <div class="item">
+            <picture>
+            <source 
+            media="(max-width: 500px)"
+            srcset="resources/project_one_tablet.jpg"
+            />
+            <source 
+            media="(max-width: 1199px)"
+            srcset="resources/project_one_mobile.jpg"
+            />
             <img class="item__image" src="/resources/project_one.jpg">
-            <div>
+            </picture>
                 <h3 class="item__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                 <a href="" class="item__detailed">Подробнее →</a>
-            </div>
         </div>
 
         <div class="item">
+            <picture>
+            <source 
+            media="(max-width: 500px)"
+            srcset="resources/project_two_mobile.jpg"
+            />
+            <source 
+            media="(max-width: 1199px)"
+            srcset="resources/project_two_tablet.jpg"
+            />
             <img class="item__image" src="/resources/project_two.jpg">
-            <div>
+            </picture>
                 <h3 class="item__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                 <a href="" class="item__detailed">Подробнее →</a>
-            </div>
         </div>
 
-       <div class="item">
+        <div class="item">
+            <picture>
+            <source 
+            media="(max-width: 500px)"
+            srcset="resources/project_three_mobile.jpg"
+            />
+            <source 
+            media="(max-width: 1199px)"
+            srcset="resources/project_three_tablet.jpg"
+            />
             <img class="item__image" src="/resources/project_three.jpg">
-            <div>
+            </picture>
                 <h3 class="item__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                 <a href="" class="item__detailed">Подробнее →</a>
-            </div>
         </div>
 
         <a href="" class="items">Смотреть все проекты</a>
-        </div>
     </div>
+</main>
 
     <div class="container-services">
         <h2 id="services" class="services">УСЛУГИ</h2>
@@ -124,6 +149,7 @@
             <a href="mailto:hello@mail.com">hello@mail.com</a>
         </p>
     </div>
+    </main>
 
     <div class="container-futor">
         <div class="futor">
